@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #eee;
+  font-family: Poppins;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+
+header {
+  height: 600px;
+ 
+}
+
+
+header h1 {
+  font-size: 6rem;
+  line-height: 6rem;
+  padding-top: 40px;
+  padding-left: 20px;
+  width: 40%;
+  margin: 0px;
+}
+
+h2 span {
+  color: #999;
+}
+img.hero {
+  width: 100%;
+  max-width: 800px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+main {
+  padding: 40px;
+  margin: -200px auto 0px auto;
+  background: rgb(233, 233, 233);
+}
+
+form * {
+  display: block;
+
+}
+
+input {
+  border: none;
+  background: none;
+}
+
+input[type="text"] {
+  border-bottom: 1px solid #FF5F6D;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+input[type="submit"] {
+  background: #FF5F6D;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 13px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 13px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 13px -10px rgba(0,0,0,0.75);
+  color: #eee;
+}
+
+
+.current p {
+  font-size: 2rem;
+}
+
+.details p {
+  margin: 0px;
+}
